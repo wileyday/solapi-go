@@ -120,6 +120,7 @@ type GroupList struct {
 // GroupMessageList struct
 type GroupMessageList struct {
 	StartKey    string
+	NextKey     string
 	Limit       int
 	MessageList MessageList
 }
